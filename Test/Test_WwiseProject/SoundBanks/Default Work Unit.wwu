@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{98AFD0F6-C0E9-40B3-8413-4216B9DBD8D1}" SchemaVersion="133">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{98AFD0F6-C0E9-40B3-8413-4216B9DBD8D1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4D1E4E97-AAA5-4B64-A20E-F12CB1223426}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_CustomMusic" ID="{61BB508F-D9A8-419E-BFC3-BA7AE47419D9}" WorkUnitID="{F11FA094-AC35-4005-93F8-C12EADFA78AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Amb" ID="{00E13083-A9A1-429F-A15E-85FBE0A8ADCB}" WorkUnitID="{F11FA094-AC35-4005-93F8-C12EADFA78AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_CustomMusic" ID="{59728DF1-70B2-4656-8592-C3A2CF87CC46}" WorkUnitID="{F11FA094-AC35-4005-93F8-C12EADFA78AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TestSound" ID="{A4BE7013-7323-46B0-9524-4A2C544A5F93}" WorkUnitID="{F11FA094-AC35-4005-93F8-C12EADFA78AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Amb" ID="{A68DA107-85D3-46F8-8863-45DC9A4C0B49}" WorkUnitID="{F11FA094-AC35-4005-93F8-C12EADFA78AD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

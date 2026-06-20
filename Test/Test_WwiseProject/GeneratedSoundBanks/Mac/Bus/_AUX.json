@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "983310469",
+    "Type": "Bus",
+    "GUID": "{E79BEEEF-5BA7-4938-A9E1-23498A2E2CC4}",
+    "Language": "SFX",
+    "Hash": "{A348D780-6F3E-7CA5-FFDF-5D4B4173DB0D}",
+    "ObjectPath": "AUX",
+    "ShortName": "AUX",
+    "Path": "Bus/AUX.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "216852093",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AUX\\[Effect Slot [0]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{9E970C34-785D-4305-BBB1-202023BD15B4}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "983310469",
+      "Name": "AUX",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AUX",
+      "GUID": "{E79BEEEF-5BA7-4938-A9E1-23498A2E2CC4}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "216852093"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{DCBB0721-ACE3-4AF7-07F2-EB19CC1A88A8}"
+ }
+}

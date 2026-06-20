@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7D13ABB2-F653-4788-9E98-3D1DABE55F28}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{7D13ABB2-F653-4788-9E98-3D1DABE55F28}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Amb" ID="{19FC8DB7-9FCA-481C-AA4C-CC3CEE4B1BF3}" ShortID="260500723">
+					<ChildrenList>
+						<BlendContainer Name="Amb" ID="{6726852E-E9C7-4ABE-950B-3421D3430BBB}" ShortID="771717280">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51828A9A-157F-4E10-80E2-F17B0F4C5136}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7CBA4F7F-78E0-43A6-8DC9-4DC80A102744}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Amb_Forest" ID="{9BE28059-7AA5-4685-B992-E30BB00B5F96}" ShortID="510055366">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51828A9A-157F-4E10-80E2-F17B0F4C5136}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7CBA4F7F-78E0-43A6-8DC9-4DC80A102744}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMBForst_Birds Twitter Wind 01_B00M_ONE_L" ID="{B99E0B31-DE2A-4EA3-A194-F82E5853B7EE}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.941"/>
+												<Property Name="LoopEnd" Type="Real64" Value="34.229"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="35.7738928918241"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMBForst_Birds Twitter Wind 01_B00M_ONE.L.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="265045109"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{AEE978A4-B594-43AD-B652-3BEE95045EB9}" ShortID="245476883">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="AmbForest_VolPara" ID="{1D3B7A12-978C-406B-8AED-79399DCB0BD8}" WorkUnitID="{7AC84E18-017F-4889-A89C-0A572C7E31C2}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{C0F48DDD-661F-46F5-AECE-161096BC5AD7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="AMBForst_Birds Twitter Wind 01_B00M_ONE_L" ID="{B99E0B31-DE2A-4EA3-A194-F82E5853B7EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_River" ID="{F818848B-752C-4DBF-B9AA-6F763FBB8BAC}" ShortID="970538856">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51828A9A-157F-4E10-80E2-F17B0F4C5136}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7CBA4F7F-78E0-43A6-8DC9-4DC80A102744}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMBLake_Running River Distant Birds Walla 02_B00M_ONE_R" ID="{A4114623-FDA6-49A6-98B2-AF8732E45030}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2208.598"/>
+												<Property Name="LoopBegin" Type="Real64" Value="7.89188138347989"/>
+												<Property Name="LoopEnd" Type="Real64" Value="82.1835301544655"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.77725943167788"/>
+												<Property Name="TrimEnd" Type="Real64" Value="83.529201133631"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>AMBLake_Running River Distant Birds Walla 02_B00M_ONE.R.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="96884098"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{C2E616EB-4B43-4BE8-BB83-BD86239264BB}" ShortID="189452459">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="AmbRiver_VolPara" ID="{07F9BAFA-FDBF-4DD1-886E-7931BB35E5EE}" WorkUnitID="{7AC84E18-017F-4889-A89C-0A572C7E31C2}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{50C620D7-9ED9-4560-832E-F408EF69188E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="AMBLake_Running River Distant Birds Walla 02_B00M_ONE_R" ID="{A4114623-FDA6-49A6-98B2-AF8732E45030}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Amb_WhiteNoise" ID="{DDBBF347-EEC6-48E6-BEF0-B7F65C2BD48B}" ShortID="580774269">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51828A9A-157F-4E10-80E2-F17B0F4C5136}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7CBA4F7F-78E0-43A6-8DC9-4DC80A102744}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="whiteNoise" ID="{D5098BF7-7F3B-461F-8318-0A4735520A6E}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="0.5"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.076"/>
+												<Property Name="LoopEnd" Type="Real64" Value="7.3456"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>whiteNoise.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="687248051"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<RTPC Name="" ID="{0A334911-5917-44F8-86D2-9AB2584BC48E}" ShortID="862931041">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="MakeUpGain"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="AmbWhiteNoise_VolPara" ID="{C9BD3171-E6BD-40FE-AB01-FD60E5B13107}" WorkUnitID="{7AC84E18-017F-4889-A89C-0A572C7E31C2}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{40487FBD-4FA8-4130-8785-6A84316DE43C}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-96</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="whiteNoise" ID="{D5098BF7-7F3B-461F-8318-0A4735520A6E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="New Blend Track" ID="{6412B198-D7F1-4FF3-B2D1-B5D169F310F9}" ShortID="39890449"/>
+							</BlendTrackList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="TestSound" ID="{F38CA290-B0F4-4F74-8AB2-6E789F86C65F}" ShortID="310576500">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51828A9A-157F-4E10-80E2-F17B0F4C5136}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{63F78BDA-6766-43CB-9A71-B260607F00BD}" WorkUnitID="{7CBA4F7F-78E0-43A6-8DC9-4DC80A102744}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TestSound" ID="{FB35707E-B796-4DE4-A016-5B04214DAB5A}">
+							<Language>SFX</Language>
+							<AudioFile>TestSound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="103891981"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TestSound" ID="{FB35707E-B796-4DE4-A016-5B04214DAB5A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="CustomMusic" ID="{757CC613-E22F-4445-9ADC-AB8D8DC65DCF}" ShortID="7114422">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{51828A9A-157F-4E10-80E2-F17B0F4C5136}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{63F78BDA-6766-43CB-9A71-B260607F00BD}" WorkUnitID="{7CBA4F7F-78E0-43A6-8DC9-4DC80A102744}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Audio Input" ID="{FBF8AD8F-6AC2-4884-B194-492E0E656EC2}" ShortID="997989863" PluginName="Wwise Audio Input" CompanyID="0" PluginID="200">
+							<PropertyList>
+								<Property Name="AudioInputGain" Type="Real32" Value="0"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Audio Input" ID="{FBF8AD8F-6AC2-4884-B194-492E0E656EC2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>

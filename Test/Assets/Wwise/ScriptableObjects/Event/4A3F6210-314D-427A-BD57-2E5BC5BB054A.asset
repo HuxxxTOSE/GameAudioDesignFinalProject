@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618da9765a01a8a458cb3d78cdd5b1f8, type: 3}
+  m_Name: 4A3F6210-314D-427A-BD57-2E5BC5BB054A
+  m_EditorClassIdentifier: AK.Wwise.Unity.API.WwiseTypes::WwiseEventReference
+  objectName: Play_camfire_amb
+  id: 4073468718
+  guid: 4A3F6210-314D-427A-BD57-2E5BC5BB054A
+  IsInUserDefinedSoundBank: 1

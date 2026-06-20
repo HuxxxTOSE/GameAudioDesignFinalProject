@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	435770000	Stop_Amb			\Default Work Unit\Stop_Amb	
+	1064970794	Stop_CustomMusic			\Default Work Unit\Stop_CustomMusic	
+	2499044644	Play_CustomMusic			\Default Work Unit\Play_CustomMusic	
+	2752533807	Play_TestSound			\Default Work Unit\Play_TestSound	
+	2959533290	Play_Amb			\Default Work Unit\Play_Amb	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	307064427	AmbRiver_VolPara			\Default Work Unit\AmbRiver_VolPara	
+	3803023940	AmbWhiteNoise_VolPara			\Default Work Unit\AmbWhiteNoise_VolPara	
+	3989066116	AmbForest_VolPara			\Default Work Unit\AmbForest_VolPara	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	997989863	Audio Input	Wwise Audio Input		\Containers\Default Work Unit\CustomMusic\Audio Input	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	96884098	Amb_River	.cache\1D\{1DFEA309-68F4-AC70-B209-23C79D701E35}.wem		\Containers\Default Work Unit\Amb\Amb\Amb_River		7464330
+	103891981	TestSound	.cache\A3\{A372AD01-4FB5-606B-11D0-CB8E6739E219}.wem		\Containers\Default Work Unit\TestSound		38496
+	265045109	Amb_Forest	.cache\8F\{8F1A3B83-55B9-E23B-F374-6C242C349845}.wem		\Containers\Default Work Unit\Amb\Amb\Amb_Forest		3434438
+	687248051	Amb_WhiteNoise	.cache\07\{07A70F9A-FE5B-1599-1BC1-7124915D0CB7}.wem		\Containers\Default Work Unit\Amb\Amb\Amb_WhiteNoise		1305336
+

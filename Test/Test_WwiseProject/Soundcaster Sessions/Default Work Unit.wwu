@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{977385E7-6A4F-4F5A-A5C6-6F891A3456F0}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{977385E7-6A4F-4F5A-A5C6-6F891A3456F0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="AmbTest" ID="{CD73667F-906B-470F-8CAB-4E27EB78C152}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

@@ -1,0 +1,155 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{4D1E4E97-AAA5-4B64-A20E-F12CB1223426}",
+    "Language": "SFX",
+    "Hash": "{EC3879A8-CE6F-7229-2785-CE2A6BFF3B59}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "96884098",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBLake_Running River Distant Birds Walla 02_B00M_ONE.R.wav",
+      "CachePath": "E4/{E42608A9-B46B-2E2A-829D-21ED9434575E}.wem"
+     },
+     {
+      "Id": "103891981",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TestSound.wav",
+      "CachePath": "A2/{A22D6B9E-08B3-9BE2-54EA-A53E3697E751}.wem"
+     },
+     {
+      "Id": "265045109",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AMBForst_Birds Twitter Wind 01_B00M_ONE.L.wav",
+      "CachePath": "52/{52EC8E44-89A9-55F9-05D7-D7DD380BD011}.wem"
+     },
+     {
+      "Id": "687248051",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "whiteNoise.wav",
+      "CachePath": "45/{4525F445-B109-8DC6-A95D-61E88BDC2B97}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "997989863",
+       "Name": "Audio Input",
+       "ObjectPath": "\\Containers\\Default Work Unit\\CustomMusic\\Audio Input",
+       "GUID": "{FBF8AD8F-6AC2-4884-B194-492E0E656EC2}",
+       "LibName": "Wwise Audio Input",
+       "LibId": "13107202"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "2959533290",
+      "Name": "Play_Amb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Amb",
+      "GUID": "{00E13083-A9A1-429F-A15E-85FBE0A8ADCB}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "96884098"
+       },
+       {
+        "Id": "265045109"
+       },
+       {
+        "Id": "687248051"
+       }
+      ]
+     },
+     {
+      "Id": "2499044644",
+      "Name": "Play_CustomMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_CustomMusic",
+      "GUID": "{59728DF1-70B2-4656-8592-C3A2CF87CC46}",
+      "DurationType": "Unknown",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "997989863"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2752533807",
+      "Name": "Play_TestSound",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_TestSound",
+      "GUID": "{A4BE7013-7323-46B0-9524-4A2C544A5F93}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2",
+      "DurationMax": "1.2",
+      "MediaRefs": [
+       {
+        "Id": "103891981"
+       }
+      ]
+     },
+     {
+      "Id": "435770000",
+      "Name": "Stop_Amb",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Amb",
+      "GUID": "{A68DA107-85D3-46F8-8863-45DC9A4C0B49}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1064970794",
+      "Name": "Stop_CustomMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_CustomMusic",
+      "GUID": "{61BB508F-D9A8-419E-BFC3-BA7AE47419D9}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "307064427",
+      "Name": "AmbRiver_VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\AmbRiver_VolPara",
+      "GUID": "{07F9BAFA-FDBF-4DD1-886E-7931BB35E5EE}"
+     },
+     {
+      "Id": "3803023940",
+      "Name": "AmbWhiteNoise_VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\AmbWhiteNoise_VolPara",
+      "GUID": "{C9BD3171-E6BD-40FE-AB01-FD60E5B13107}"
+     },
+     {
+      "Id": "3989066116",
+      "Name": "AmbForest_VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\AmbForest_VolPara",
+      "GUID": "{1D3B7A12-978C-406B-8AED-79399DCB0BD8}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{77CE8270-96EC-EF56-8DCC-728182FA149D}"
+ }
+}

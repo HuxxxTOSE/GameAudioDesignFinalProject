@@ -1,0 +1,26 @@
+{
+ "PluginInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "PluginLibs": [
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Wwise Audio Input",
+    "LibId": "13107202",
+    "Type": "Source",
+    "DLL": "AkAudioInput",
+    "StaticLib": "AkAudioInputSource"
+   }
+  ],
+  "FileHash": "{C67BDE8B-E357-F327-CC1E-377D660298C5}"
+ }
+}

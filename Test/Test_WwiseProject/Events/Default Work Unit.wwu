@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F11FA094-AC35-4005-93F8-C12EADFA78AD}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{F11FA094-AC35-4005-93F8-C12EADFA78AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Amb" ID="{00E13083-A9A1-429F-A15E-85FBE0A8ADCB}">
+					<ChildrenList>
+						<Action Name="" ID="{180A1B8D-78BD-4550-8E12-E9B19AB632C2}" ShortID="615252170">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb" ID="{6726852E-E9C7-4ABE-950B-3421D3430BBB}" WorkUnitID="{7D13ABB2-F653-4788-9E98-3D1DABE55F28}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Amb" ID="{A68DA107-85D3-46F8-8863-45DC9A4C0B49}">
+					<ChildrenList>
+						<Action Name="" ID="{D1B96F43-2215-4B5D-9497-C6D7F6598887}" ShortID="341093459">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="5"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb" ID="{6726852E-E9C7-4ABE-950B-3421D3430BBB}" WorkUnitID="{7D13ABB2-F653-4788-9E98-3D1DABE55F28}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TestSound" ID="{A4BE7013-7323-46B0-9524-4A2C544A5F93}">
+					<ChildrenList>
+						<Action Name="" ID="{BDF12BDB-3FAE-4CFB-940A-47F58CA89181}" ShortID="671267419">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestSound" ID="{F38CA290-B0F4-4F74-8AB2-6E789F86C65F}" WorkUnitID="{7D13ABB2-F653-4788-9E98-3D1DABE55F28}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CustomMusic" ID="{59728DF1-70B2-4656-8592-C3A2CF87CC46}">
+					<ChildrenList>
+						<Action Name="" ID="{9C6E68CA-3691-4FA0-BA6F-6514783B8E14}" ShortID="202853164">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CustomMusic" ID="{757CC613-E22F-4445-9ADC-AB8D8DC65DCF}" WorkUnitID="{7D13ABB2-F653-4788-9E98-3D1DABE55F28}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_CustomMusic" ID="{61BB508F-D9A8-419E-BFC3-BA7AE47419D9}">
+					<ChildrenList>
+						<Action Name="" ID="{0AC94B20-C972-4979-96B7-D995D6EB5832}" ShortID="528897020">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CustomMusic" ID="{757CC613-E22F-4445-9ADC-AB8D8DC65DCF}" WorkUnitID="{7D13ABB2-F653-4788-9E98-3D1DABE55F28}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

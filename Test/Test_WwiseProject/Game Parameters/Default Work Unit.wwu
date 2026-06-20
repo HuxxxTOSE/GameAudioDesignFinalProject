@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7AC84E18-017F-4889-A89C-0A572C7E31C2}" SchemaVersion="133">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{7AC84E18-017F-4889-A89C-0A572C7E31C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="AmbForest_VolPara" ID="{1D3B7A12-978C-406B-8AED-79399DCB0BD8}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="AmbRiver_VolPara" ID="{07F9BAFA-FDBF-4DD1-886E-7931BB35E5EE}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="AmbWhiteNoise_VolPara" ID="{C9BD3171-E6BD-40FE-AB01-FD60E5B13107}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="VolPara" ID="{0D14DD47-6F7A-4CF5-ADA3-61975D651C89}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="100"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Music_VolPara" ID="{919A8090-76AB-4168-AFE4-CBB52140BD79}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

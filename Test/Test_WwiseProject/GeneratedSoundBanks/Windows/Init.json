@@ -1,0 +1,112 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{03AA5700-95FF-DFAC-849E-FD73AF2A300C}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "216852093",
+       "Name": "RoomVerb (Custom)",
+       "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AUX\\[Effect Slot [0]: (RoomVerb)]\\RoomVerb (Custom)",
+       "GUID": "{9E970C34-785D-4305-BBB1-202023BD15B4}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ],
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "GUID": "{79FC4913-0B19-4F4A-B43E-0BF26EE163A1}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "GUID": "{242341A5-9EA3-42B8-A6B4-3B88EA46D916}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "2246998526",
+      "Name": "Main Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     },
+     {
+      "Id": "3991942870",
+      "Name": "Music",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\Music",
+      "GUID": "{63F78BDA-6766-43CB-9A71-B260607F00BD}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "983310469",
+      "Name": "AUX",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AUX",
+      "GUID": "{E79BEEEF-5BA7-4938-A9E1-23498A2E2CC4}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "216852093"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "307064427",
+      "Name": "AmbRiver_VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\AmbRiver_VolPara",
+      "GUID": "{07F9BAFA-FDBF-4DD1-886E-7931BB35E5EE}"
+     },
+     {
+      "Id": "1246950570",
+      "Name": "Music_VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Music_VolPara",
+      "GUID": "{919A8090-76AB-4168-AFE4-CBB52140BD79}"
+     },
+     {
+      "Id": "3716273314",
+      "Name": "VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\VolPara",
+      "GUID": "{0D14DD47-6F7A-4CF5-ADA3-61975D651C89}"
+     },
+     {
+      "Id": "3803023940",
+      "Name": "AmbWhiteNoise_VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\AmbWhiteNoise_VolPara",
+      "GUID": "{C9BD3171-E6BD-40FE-AB01-FD60E5B13107}"
+     },
+     {
+      "Id": "3989066116",
+      "Name": "AmbForest_VolPara",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\AmbForest_VolPara",
+      "GUID": "{1D3B7A12-978C-406B-8AED-79399DCB0BD8}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D0D41A8A-E65E-BA0C-6F72-A35FE6C38547}"
+ }
+}
